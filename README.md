@@ -7,3 +7,17 @@ For more information please visit http://markcartwright.com/projects/lpc-toolkit
 
 Mark Cartwright
 mcartwright@gmail.com
+
+## Development
+
+Make sure you have CMake installed
+
+```sh
+git clone <repository URL> --recurse-submodules
+# if you forget the flag, you can instead run:
+# git submodule update --init --recursive
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
